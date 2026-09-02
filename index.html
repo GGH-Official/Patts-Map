@@ -344,11 +344,11 @@
         // MAIN ROAD: SUKHUMVIT (With Text Bending Along Path)
         // ==========================================================================
         const sukhumvitCurvedPath = [
-            [13.742141, 100.552958],
-            [13.741508, 100.554086],
-            [13.740972, 100.554843],
-            [13.736409, 100.561280],
-            [13.729050, 100.571708],
+            [12.932882, 100.887188],
+            [12.932050, 100.886762],
+            [12.929903, 100.885540],
+            [12.928253, 100.884445],
+            [12.927682, 100.883859],
         ];
 
         const roadLine = L.polyline(sukhumvitCurvedPath, {
@@ -368,7 +368,7 @@
         }).addTo(map);
 
         // Bends neon cyber-styled label over the Sukhumvit polyline
-        roadLine.setText("SUKHUMVIT ROAD", {
+        roadLine.setText("Soi Buakhao", {
             center: true,
             offset: -8,
             attributes: {
@@ -382,7 +382,7 @@
         });
 
         const sukhumvitData = {
-            name: "Sukhumvit Road",
+            name: "Soi Buakhao",
             category: "🛣️ Main Entertainment Artery",
             text: "One of Thailand's longest roads, serving as the absolute central hub for Bangkok's premier nightlife, dining, shopping, and neon-drenched side-sois.",
             google: "https://www.google.com/maps/search/?api=1&query=13.736535,100.561377"
